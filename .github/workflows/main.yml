@@ -27,5 +27,3 @@ jobs:
         uses: actions/upload-pages-artifact@v5 # packages the HTML for Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v5 # publishes to your live URL      
-- name: Deploy to GitHub Pages
-uses: actions/deploy-pages@v5 # publishes to your live URL
